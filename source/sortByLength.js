@@ -11,7 +11,7 @@
  * 
  * @returns {Array<String>}
  */
-let sortByLength = (strings) => {
+const sortByLength = (strings) => {
     return strings.slice().sort((a, b) => a.length - b.length || a.localeCompare(b));
 }
     
